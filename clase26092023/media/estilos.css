@@ -1,0 +1,52 @@
+@font-face{
+    font-family: 'Roboto';
+    src: url("./media/Fuente/WinterSunday.otf");
+}
+body{
+    background-color: rgba(65, 144, 69, 0.752);
+    font-family: sans-serif;
+    padding: 5em;
+}
+
+/* Colores de fondo */
+.fondoBlanco{
+    background-color: white;
+}
+.fondoAzul{
+    background-color: deepskyblue;
+}
+.fondoNegro{
+    background-color: black;
+}
+/* Text de la pagina */
+.texto1{
+    text-align: center;
+    font-size: 5em;
+    color: darkgray;
+}
+
+.texto2{
+    font-size: 1em;
+    color: whitesmoke;
+    text-align: left;
+    padding: 2em;
+}
+.texto3, li,a{
+    color: blueviolet;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+.texto4{
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}
+.imagen{
+    border: 10px solid #c5c6c8e0;
+    border-radius: 25px;
+    width: 250px;
+}
+table{
+    width: 100%;
+}
