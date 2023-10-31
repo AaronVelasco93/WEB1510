@@ -8,14 +8,15 @@
     <title>ICO</title>
 </head>
 <body>
-<form action="" method="post">
+<form action="principal.php" method="post">
+    
     <div class="ventana" >
         <br>
         <label for="nnombre_usuario">Nombre usuario</label>  <br>
         <input type="text" name="nombre_usuario"  required placeholder="Ingresa tu Usuario" class="tamaño" >
         <br><br>
         <label for="contraseña">Ingresa tu contraseña</label> <br>
-        <input type="password" name="contraseña" required placeholder="Contraseña"  class="tamaño">
+        <input name="contraseña" required placeholder="Contraseña"  class="tamaño">
         <br><br>
         <button>Enviar</button>
         <br><br>
